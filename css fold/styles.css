@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+
+
+body{
+    font-family: 'Sora', sans-serif;
+    line-height: 1.7;
+}
+
+.navbar .active{
+    font-weight: bold;
+}
+h1,h2,h3,h4,h5, .display-3{
+    font-weight: 700;
+}
+.hero{
+    background-image: url(../image/4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+
+.hero::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(21, 20, 40, 0.8);
+    z-index: -1;
+}
+
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.iconbox{
+    font-size: 30px;
+}
+
+.btn .bx{
+    font-size: 20px;
+}
+.lr{
+    width: 90%;
+}
+
+.hgt{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.pick{
+    background-color: rgb(175, 174, 174);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.abh{
+    width: 98%;
+}
+
+.logo-image{
+    width: 400px;
+    height: 400px;
+}
+
+.tt{
+    position: absolute;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+#video-background { 
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%; 
+    min-height: 100%; 
+    width: auto; 
+    height: auto;
+    z-index: -1000; 
+    overflow: hidden;
+  }
+
+  .cover{
+      width: 100%;
+      height: 50vh;
+      background-image: url(../image/7.jpg);
+      background-size: 100%;
+      background-position-y: -25rem;
+  }
+
+  #cover-text{
+      color: rgb(224, 219, 219);
+  }
+
+  .cover .content{
+      background-color: rgba(34, 31, 31, 0.644);
+      height: 100%;
+      width: 100%;
+      padding-top: 18vmin;
+  }
+
+  footer {
+    background: #212529;
+    padding: 90px;
+  }
+
+  i{
+      color: white;
+  }
+
+  .col-img{
+    background-image: url(../image/2.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+  }
